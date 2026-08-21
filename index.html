@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="李之茗外師 (YourEnglishTeacher) — English learning apps and podcast." />
+  <title>李之茗 | YourEnglishTeacher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>李之茗<span class="en">YourEnglishTeacher</span></h1>
+      <p class="tagline">Apps &amp; Podcast for English Learners &nbsp;·&nbsp; 英語學習應用程式與播客</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Apps -->
+    <section id="apps">
+      <h2 class="section-title">Apps &nbsp;·&nbsp; 應用程式</h2>
+      <div class="app-grid">
+
+        <div class="app-card">
+          <h3>外師自然發音<span class="sub">Phonics ABC</span></h3>
+          <p>學習英語自然發音，由外師帶你一步步掌握發音規則。<br>Learn English phonics step by step with a native teacher.</p>
+          <a class="badge-link"
+             href="https://play.google.com/store/apps/details?id=tw.com.englishteacher.phonicsabc"
+             target="_blank" rel="noopener">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+                 alt="Get it on Google Play" />
+          </a>
+        </div>
+
+        <div class="app-card">
+          <h3>CHIHERO<span class="sub">&nbsp;</span></h3>
+          <p>即將推出，敬請期待！<br>Coming soon — stay tuned!</p>
+          <span class="coming-soon">Coming Soon</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Podcast -->
+    <section id="podcast">
+      <h2 class="section-title">Podcast &nbsp;·&nbsp; 播客</h2>
+      <div class="podcast-placeholder">
+        <p>Podcast coming soon!</p>
+        <p class="zh">播客即將上線，敬請期待。</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> 李之茗外師 (YourEnglishTeacher). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
